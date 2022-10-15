@@ -1,5 +1,5 @@
 .page {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 20px auto 0 auto;
 }
 
@@ -27,4 +27,8 @@
     height: 20px;
     border-radius: 50%;
     margin-right: 5px;
+}
+
+.progress-bar-settings label {
+    margin-right: 20px;
 }

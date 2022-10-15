@@ -17,16 +17,16 @@ function ProgressBarSettings(){
     }
 
     return (
-        <div>
+        <>
             <div>
-                <label htmlFor="width">Width</label>
+                <label htmlFor="width">One Bar Width</label>
                 <input onChange={handleWidthChange} id="width" type="number" value={width}/>
             </div>
             <div>
-                <label htmlFor="width">Height</label>
+                <label htmlFor="width">One BarHeight</label>
                 <input onChange={handleHeightChange} id="height" type="number" value={height}/>
             </div>
-        </div>
+        </>
     )
 }
 

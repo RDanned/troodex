@@ -16,7 +16,7 @@ function FirstTask(){
 
     return (
         <>
-            <div className="page">
+            <div>
                 <ProgressBar items={data} width={width} height={height}/>
             </div>
         </>
